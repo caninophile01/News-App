@@ -3,10 +3,13 @@ const url = "https://newsapi.org/v2/everything?q=";
 
 window.addEventListener("load", () => fetchNews("India"));
 
-async function fetchNews(query){
+const API_call = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+    console.log(API_call);
+    async function fetchNews(query){
     const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
     const data = await res.json();
     bindData(data.articles);
+
 }
 
 function bindData(articles){
