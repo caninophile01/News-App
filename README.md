@@ -7,8 +7,11 @@
 ## ⭐️ Features
 
 ❖ Real-time news updates: The app fetches news articles using an API key, ensuring that users have access to the latest news information.
+
 ❖ Search functionality: Users can search for news articles related to specific keywords, allowing them to find news stories of interest.
+
 ❖ Quick navigation: The app provides quick navigation options for popular categories like sports, technology, finance, world, and India, making it easy for users to explore news articles in their preferred domains.
+
 ❖ Responsive design: The app is built with a responsive layout, ensuring that it works seamlessly across different devices and screen sizes.
 
 ## ⭐️ Technology Used
@@ -18,6 +21,7 @@ The News App is built using the following technologies:
 ❖ HTML: Used for creating the structure and layout of the app.
 ❖ CSS: Used for styling the app and making it visually appealing.
 ❖ JavaScript: Used for implementing the functionality of the app, including fetching news articles and handling user interactions.
+
 ❖ API: The app utilizes an API key to fetch real-time news data and display it to the users.
 
 ## ⭐️ Prerequisites
